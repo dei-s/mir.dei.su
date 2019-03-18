@@ -1,0 +1,540 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+article {
+	background-color: white;
+	font-size: 1.5rem;
+	margin: auto;
+	max-width: 80rem;
+	min-height: 300px;
+	padding: 1rem;
+}
+article > figure {
+	margin: 0;
+	max-width: 100%;
+	text-align: center;
+}
+article > figure > img {
+	max-width: 100%;
+}
+article > figure > iframe {
+	max-width: 100%;
+}
+article > figure > a > img {
+	max-width: 100%;
+}
+body {
+	background-color: white;
+}
+body > figure > img {
+	max-width: 100%;
+}
+body > figure > iframe {
+	max-width: 100%;
+}
+body > figure > a > img {
+	max-width: 100%;
+}
+footer {
+	display: block;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 1rem;
+	background-color: #242424;
+	color: white;
+	text-align: center;
+}
+footer > div > div > div > a {
+	color: #ccc;
+}
+footer > div > div > div > a > b {
+	color: #bbb;
+}
+footer>p {
+	color: white;
+}
+footer>p>a {
+	color: white;
+}
+h1,h2,h3 {
+	text-align: center;
+}
+h1 {
+	margin: 2rem 3rem 2rem;
+}
+h2 {
+	margin: 2rem 2rem 1.5rem;
+}
+h3 {
+	margin: 2rem 1rem 1rem;
+}
+header {
+	align-items: center;
+	background: #242424;
+	border: 0;
+	color: #bbb;
+	display: flex;
+	height: 4em;
+	margin: auto 0;
+	padding: 0 1rem;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+header > ul li {
+	list-style-type: none;
+	padding-bottom: 20px
+	position: relative;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+main {
+	background-color: white;
+	color: white;
+	font-size: 1.2rem;
+	min-height: 300px;
+	padding: 1px;
+}
+main > figure {
+	margin: 0;
+	max-width: 100%;
+	text-align: center;
+}
+main > figure > img {
+	max-width: 100%;
+}
+main > figure > a > img {
+	max-width: 100%;
+}
+ol,ul {
+	padding: 0 3rem;
+}
+p {
+	margin: 1rem;
+}
+.fa {
+	font: normal normal normal 14px/1 FontAwesome;
+	margin-right: 3px;
+	vertical-align: middle;
+}
+.fa-vk:before {
+	display: inline-block;
+	content: "\f189";
+}
+.fa-facebook-f:before, .fa-facebook:before {
+	display: inline-block;
+	content: "\f09a";
+}
+.s-flag-icon {
+	height: 1.2em;
+	padding: 7px;
+}
+.s-footer {
+	color: white;
+}
+.s-footer__btm {
+	padding-bottom:20px
+}
+.s-footer-socials a {
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.s-footer__top {
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-flex-wrap:wrap;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap
+}
+.s-footer-contacts a {
+	display: block;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.s-footer-contacts a span {
+	color: #F0C800;
+}
+.s-footer-socials a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #242424;
+	margin: 5px 2%;
+	position: relative;
+}
+.s-footer-socials a:last-child {
+	margin-left: 5px;
+}
+.s-footer-socials a:first-child {
+	margin-right: 5px;
+}
+.s-footer-socials a:hover {
+	background-color: #F0C800;
+	color: #242424;
+}
+.s-footer-socials a i {
+	font-size: .8rem;
+	color: #242424;
+	margin-right: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%)
+}
+.s-footer__btm {
+	color: #fff;
+	margin: auto;
+	margin-top: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+.s-footer__btm img {
+	max-width: 150px;
+	margin: 0 0 0 15px
+}
+.s-header_delimiter {
+	background: linear-gradient(hsla(0,0%,67%,0),hsla(0,0%,67%,.8),hsla(0,0%,57%,0));
+	width: 2px;
+	height: 100%;
+	margin: 0 0.5rem;
+}
+.s-header_logo > a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0 0.1em 0 0.1em;
+	color: #bbb;
+	font-size: 2rem;
+}
+.s-header_logo_a_img {
+	height: 1.5rem;
+	margin: 0;
+}
+.s-header_logo__img {
+	height: 3rem;
+	margin: 0;
+}
+.s-header_logo__name1 > a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0 0.1em 0 0.1em;
+	color: #bbb;
+	font-size: 3rem;
+}
+.s-header_logo__name2 > a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0 0.1em 0 0.1em;
+	color: #bbb;
+	font-size: 2rem;
+}
+.s-header-menu {
+	display: flex;
+	padding: 0;
+	list-style-position: inside;
+	list-style-type: none;
+	font-size: 2rem;
+}
+.s-header-menu > li {
+	font-size: 2rem;
+	padding-left: 0.5rem;
+}
+.s-header-menu>li>a {
+	color: #bbb;
+}
+.s-header-menu-img {
+	height: 3rem;
+}
+.s-header_nav {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.s-header_nav > a {
+	margin: 0.2rem;
+}
+.s-header_nav span {
+	margin: 0.2rem;
+}
+.s-header_nav_a {
+	color: #bbb;
+	text-decoration: none;
+}
+.s-header_tool {
+	align-items: center;
+	display: flex;
+	flex: 1 0 auto;
+	height: 100%;
+	justify-content: flex-end;
+}
+.s-header_tool > div {
+	margin-right: 10px;
+}
+.s-header_tool > div > a {
+	color: #bbb;
+	text-decoration: none;
+}
+.s-p {
+	text-align: center;
+}
+.s-p-container {
+	text-align: center;
+}
+@media only screen and (max-width:1080px) {
+	article {
+		font-size: 1.2rem;
+	}
+	h1 {
+		margin: 1.5rem 0;
+	}
+	header {
+		padding: 0;
+	}
+	p {
+		margin: 1rem 0;
+	}
+	.s-header_logo__name1,.s-header_logo__name2 {
+		display: none;
+	}
+	.s-header-menu > li {
+		font-size: 1.5rem;
+	}
+}
+@media only screen and (max-width:900px) {
+	article {
+		font-size: 1rem;
+	}
+	.s-header-menu > li {
+		font-size: 1.2rem;
+	}
+}
+
+@font-face {
+	font-family:FontAwesome;
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/FontAwesome/fontawesome-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/FontAwesome/fontawesome-webfont.woff2) format("woff2"),url(../fonts/FontAwesome/fontawesome-webfont.woff) format("woff"),url(../fonts/FontAwesome/fontawesome-webfont.ttf) format("truetype"),url(../fonts/FontAwesome/fontawesome-webfont.svg#FontAwesome) format("svg")
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCu6KVjbNBYlgoKej75l0mwFg.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCu6KVjbNBYlgoKej7wl0mwFg.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCu6KVjbNBYlgoKej74l0mwFg.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCu6KVjbNBYlgoKej73l0mwFg.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCu6KVjbNBYlgoKej76l0mwFg.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCu6KVjbNBYlgoKej70l0k.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoC1CzjvWyNL4U.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoC1CzjtGyNL4U.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoC1CzjvGyNL4U.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoC1Czjs2yNL4U.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoC1CzjvmyNL4U.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoC1CzjsGyN.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjvWyNL4U.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjtGyNL4U.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjvGyNL4U.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjs2yNL4U.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjvmyNL4U.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCv6KVjbNBYlgoCxCvjsGyN.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
