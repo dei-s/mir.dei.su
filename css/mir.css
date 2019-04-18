@@ -43,8 +43,8 @@ body {
 	/*background: url(../img/bg.jpg);*/
 	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../img/bg.jpg);
 	/*background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../img/bg.jpg) no-repeat fixed 50%;*/
-	background-size: cover;
-	text-align: cnter;
+	background-size: contain;
+	text-align: center;
 }
 
 [tabindex='-1']:focus {
