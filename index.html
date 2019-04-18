@@ -1,19 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" ng-app="app" ng-csp>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-<link rel="stylesheet" href="css/mir.css">
 <link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/mir.css">
 <link rel="stylesheet" href="css/earth.css">
 <title>MIR</title>
 </head>
 
 <body>
 
+<!-- LOADER -->
+<div ng-controller="splashController as splash" id="bg-spin" class="noSelect" ng-show="home.screen === 'splash-screen'">
+	<div id="logo-container-centered" class="centerIt">
+		<div id="logoo">
+			<img id="logo-spin" src="img/logo-spin.png" />
+			<p id="networkCheck">Loading...</p>
+		</div>
+	</div>
+</div>
+
+<!-- LOG IN AREA -->
 <div id="lockscreen" class="userBG">
+
 
 <div id="lockscreen-div-1">
 	<a href="http://mir.dei.su">
@@ -60,6 +71,8 @@ t_video5442749343956206057-gleb.mp4
 -->
 
 <h3>
+<a href="doc/mircube-start.pdf">mircube-start.pdf</a>
+<br/>
 <a href="doc/mircube-datasheet-0.0.3.pdf" target="_blank">mircube-datasheet-0.0.3.pdf</a>
 <br/>
 <a href="doc/mir-cosmofest-2018.pdf" target="_blank">mir-cosmofest-2018.pdf</a>
@@ -306,6 +319,7 @@ t_video5442749343956206057-gleb.mp4
 <br/>
 <br/>
 <br/>
+<script src="js/mir.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
@@ -320,6 +334,8 @@ https://docs.google.com/spreadsheets/d/1z5NMJOqp-NeLT50zi7cx-HWVAGLlHJ3lAOJbnqlz
 -->
 
 </div>
+
+
 
 </body>
 </html>
